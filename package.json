@@ -1,0 +1,25 @@
+{
+  "name": "nb-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "nb": "bin/nb",
+    "nb-init": "bin/nb-init",
+    "nb-add": "bin/nb-add",
+    "nb-delete": "bin/nb-delete",
+    "nb-list": "bin/nb-list"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3"
+  }
+}
